@@ -94,7 +94,7 @@ h4{
 
 .header{
 
-	height: 650px;
+	height: 725px;
 	width: 100%;
 	padding: 30px 0 30px;
 	margin-top: 50px;
@@ -130,23 +130,22 @@ h4{
 
 
 
-/*section2 About Me*/
+/*section2 About Us*/
 
 .about
 {
 
-/*background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../img/7.jpg);
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-background-attachment: fixed;
-*/
-
 margin-top: -50px;
+height: 720px;
 
 }
 
-img
+.about h1
+{
+	padding-top: 50px;
+}
+
+.about img
 {
 
 height: auto;
@@ -161,7 +160,7 @@ opacity: 0.6;
 
 .about p
 {
-	text-align: left;
+	text-align: center;
 	font-size: 20px;
 	margin-top: 40px;
 }
@@ -176,7 +175,7 @@ opacity: 0.6;
 
 
 
-/*Media*/
+/*Media About Us*/
 
 @media(max-width: 768px){
 
@@ -233,10 +232,71 @@ opacity: 0.6;
 }
 
 
+/*section collections*/
+.collections h1{
+	text-decoration: underline solid #e03131;
+	color:#fff;
+}
+.collections p
+{
+	color: #fff;
+	font-size: 17px;
+}
+
+.collections p
+{
+	padding-bottom: 40px;
+}
+
+.collections .packages{
+	padding: 50px;
+	border: 1px solid#ccc;
+	background-color: #fff;
+	border-radius: 5px;
+	margin-top: 10px;
+	float: center;
+	
+
+}
+
+.collections
+{
+	padding: 50px 0 80px;
+	text-align: center;
+	background-color: #212529;
+}
+
+.packages h4
+{
+	margin-bottom:15px;
+	font-size: 20px;
+}
+
+.packages img
+{
+	height: 500px;
+	width:135%;
+	position: center;
+	margin-left: -45px;
+	display: inline-block;
+}
+
+.packages button 
+{
+	margin-top: 10px;
+	background-color:#C62828;
+	border-color: #C62828;
+}
 
 
+.btn-full:hover
+{
+	
+	background-color:#fa5252 !important;
+	color: white;
+	border-color: #fa5252;
 
-
+}
 
 
 
